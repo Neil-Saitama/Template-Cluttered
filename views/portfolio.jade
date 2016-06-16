@@ -1,0 +1,177 @@
+extends layout 
+
+body
+	block content
+		#fh5co-wrapper
+		#fh5co-page
+			#fh5co-header
+				.top
+					.container
+						span
+						a(href='#')
+							i @
+							| info@freehtml5.co
+						span
+						a(href='tel://+12345678910')
+							i.icon-mobile3
+							|   123 4567 8910
+					// end:top
+			header#fh5co-header-section
+				.container
+					.nav-header
+						a.js-fh5co-nav-toggle.fh5co-nav-toggle(href='#')
+							i
+						h1#fh5co-logo
+							a(href='index.html') Render
+						// START #fh5co-menu-wrap
+						nav#fh5co-menu-wrap(role='navigation')
+							ul#fh5co-primary-menu.sf-menu
+								li
+									a(href='index.html') Home
+								li.active
+									a(href='portfolio.html') Portfolio
+								li
+									a.fh5co-sub-ddown(href='services.html') Services
+									ul.fh5co-sub-menu
+										li
+											a(href='left-sidebar.html') Web Development
+										li
+											a(href='right-sidebar.html') Branding & Identity
+										li
+											a.fh5co-sub-ddown(href='#') Free HTML5
+											ul.fh5co-sub-menu
+											li
+												a(href='http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template', target='_blank') Build
+											li
+												a(href='http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap', target='_blank') Work
+											li
+												a(href='http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap', target='_blank') Light
+											li
+												a(href='http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap', target='_blank') Relic
+											li
+												a(href='http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap', target='_blank') Display
+											li
+												a(href='http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap', target='_blank') Sprint
+										li
+											a(href='#') UI Animation
+										li
+											a(href='#') Copywriting
+										li
+											a(href='#') Photography
+									li
+										a(href='about.html') About
+									li
+										a(href='#') Blog
+									li
+										a(href='contact.html') Contact
+			.fh5co-hero
+					.fh5co-overlay
+					div(class="fh5co-cover text-center parallax-window", data-parallax="scroll", data-image-src="images/work-11.jpg")
+						.desc.animate-box
+							h2 Portfolios
+							span
+								| Lovely Crafted by 
+								a.fh5co-site-name(href='https://www.webriq.com/', target='_blank') webriq.com
+							span
+								a.btn.btn-primary(href='#') Hire Us
+
+			#fh5co-work
+				.work-wrap
+					.container
+						.fh5co-project-inner.row
+							.fh5co-imgs.col-md-8.animate-box
+								.img-holder-1.animate-box
+									img(src='images/work_1_large.jpg', alt='Free HTML5 Bootstrap Template')
+								.img-holder-2.animate-box
+									img(src='images/work_1_small.jpg', alt='Free HTML5 Bootstrap Template')
+							.fh5co-text.col-md-4.animate-box
+								span Web Design, IdentiTy, Responsive
+								h2 Guide Landing Page
+								p
+									| Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+								p
+								a.btn.btn-primary(href='work_1.html') View Project
+				.work-wrap.work-wrap-bg
+					.container
+						.fh5co-project-inner.row
+							.fh5co-imgs.col-md-8.col-md-push-4.animate-box
+								.img-holder-1.animate-box
+									img(src='images/work_2_large.jpg', alt='Free HTML5 Bootstrap Template')
+								.img-holder-2.animate-box
+									img(src='images/work_2_small.jpg', alt='Free HTML5 Bootstrap Template')
+							.fh5co-text.col-md-4.col-md-pull-8.animate-box
+								span Web Design, IdentiTy, Responsive
+								h2 Sprint for Portfolio
+								p
+									| Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+								p
+								a.btn.btn-primary(href='work_1.html') View Project
+				.work-wrap
+					.container
+						.fh5co-project-inner.row
+							.fh5co-imgs.col-md-8.animate-box
+								.img-holder-1.animate-box
+									img(src='images/work_3_large.jpg', alt='Free HTML5 Bootstrap Template')
+								.img-holder-2.animate-box
+									img(src='images/work_3_small.jpg', alt='Free HTML5 Bootstrap Template')
+							.fh5co-text.col-md-4.animate-box
+								span Web Design, IdentiTy, Responsive
+								h2 Display for Business Website
+								p
+									| Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+								p
+								a.btn.btn-primary(href='work_1.html') View Project
+				.work-wrap.work-wrap-bg
+					.container
+						.fh5co-project-inner.row
+							.fh5co-imgs.col-md-8.col-md-push-4.animate-box
+								.img-holder-1.animate-box
+									img(src='images/work_4_large.jpg', alt='Free HTML5 Bootstrap Template')
+								.img-holder-2.animate-box
+									img(src='images/work_4_small.jpg', alt='Free HTML5 Bootstrap Template')
+							.fh5co-text.col-md-4.col-md-pull-8.animate-box
+								span Web Design, IdentiTy, Responsive
+								h2 Slant for Creatives
+								p
+									| Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+								p
+								a.btn.btn-primary(href='work_1.html') View Project
+
+			div(id="fh5co-start-project-section" class="parallax-window", data-parallax="scroll", data-image-src="images/work-1.jpg")
+				.container
+					.row
+						.col-md-8.col-md-offset-2.text-center.animate-box
+							h2 Start a Project
+							a.btn.btn-primary(href='#') Get in Touch
+				// START a project
+
+			
+			footer
+				#footer
+					.container
+						.row
+							.col-md-6
+								p
+									| Copyright 2016 Free Html5
+									a(href='#') Render
+										| . All Rights Reserved.
+									br
+									| Made with by
+									a(href='http://freehtml5.co/') Freehtml5.co
+										|	/ Demo Images:
+									a(href='https://unsplash.com/') Unsplash
+
+							.col-md-6
+								ul.footer-menu
+									li
+										a(href='#') Home
+									li
+										a(href='#') Portfolio
+									li
+										a(href='#') Services
+									li
+										a(href='#') About
+									li
+										a(href='#') Blog
+									li
+										a(href='#') Contact
